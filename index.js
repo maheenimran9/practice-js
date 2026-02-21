@@ -250,3 +250,77 @@
 // 10; console.log(null && true || true && true); → true
 // 11; console.log((null && true) || (true && 1)); → 1
 
+// JAVASCRIPT PRACTICE SHEET 2
+
+// TASK 11: FILTER EVEN NUMBERS
+
+// let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let evenNumber = [];
+
+// for(var i = 0; i < number.length; i++){
+//   if( number[i] % 2 === 0){
+//     evenNumber.push(number[i]);
+//   }
+// }
+// console.log("Even Numbers;", evenNumber);
+
+// TASK 12: SUM OF ODDS NUMBERS
+
+// let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let sum = 0;
+
+// for(var i = 0; i < number.length; i++){
+//   if(number[i] % 2 !== 0){
+//     sum += number.length
+//   }
+// }
+
+// console.log("Sum of odd numbers:", sum);
+
+// TASK 13: FIZZBUZZ:
+
+// for(var i = 0; i<=100; i++){
+//     if( i % 15 === 0){
+//       console.log("Fizzbuzz");
+//     } 
+//     else if( i % 3 === 0){
+//       console.log("Fizz");
+//     } 
+//     else if( i % 5 === 0){
+//       console.log("buzz");
+//     } 
+//     else {
+//         console.log(i);
+//     }
+// }
+
+// TASK 14: COUNT CHARACTER:
+
+// let word = [ "apple", "mango", "banana", "orange", "pineapple",];
+// let totalChars = 0
+// for(var i = 0; i< word.length; i++){
+//     totalChars += word[i].length
+// }
+// console.log("Total characters:",totalChars);
+
+// TASK 15: FIND MAXIMUM LENGTH WORDS:
+
+// let words = ["Apple", "Banana", "Orange", "Watermelon", "Pineapple", "Grapes"];
+// let longestWord = words[0];
+
+// for( var i = 1; i< words.length; i++){
+//   if( words[i].length > longestWord.length){
+//     longestWord = words[i]
+//   }
+// }
+// console.log(longestWord);
+
+// TASK 16: REMOVE SHORTS WORDS:
+let words = ["cat", "apple", "laptop", "go", "eat", "mobile", "lunch", "watch",];
+let longWords = [];
+for(var i = 0; i< words.length; i++){
+    if(words[i].length >= 3){
+        longWords.push(words[i])
+    }
+}
+console.log(longWords);
