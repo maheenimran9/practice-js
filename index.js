@@ -316,11 +316,33 @@
 // console.log(longestWord);
 
 // TASK 16: REMOVE SHORTS WORDS:
-let words = ["cat", "apple", "laptop", "go", "eat", "mobile", "lunch", "watch",];
-let longWords = [];
-for(var i = 0; i< words.length; i++){
-    if(words[i].length >= 3){
-        longWords.push(words[i])
-    }
-}
-console.log(longWords);
+// let words = ["cat", "apple", "laptop", "go", "eat", "mobile", "lunch", "watch",];
+// let longWords = [];
+// for(var i = 0; i< words.length; i++){
+//     if(words[i].length >= 3){
+//         longWords.push(words[i])
+//     }
+// }
+// console.log(longWords);
+
+// TASK 17: MULTIPLICATION TABLES:
+// let userNumber = +prompt("Enter Number"); 
+// for(var i=1; i<=10; i++){
+//    console.log(`${userNumber} x ${i} = ${userNumber * i} `)
+// }
+
+// TASK 18: SORTED ARRAY:
+// let number = [5, 9, 10, 8, 3, 7, 2, 6, 1, 4]
+// for( var i=0; i< number.length; i++){
+//     for( var j=0; j < number.length - 1; j++){
+//         if( number[j] > number[j + 1]){
+//           let temp = number[j];
+//           number[j] = number[j + 1];
+//           number[j + 1] = temp;
+//         }
+//     }
+// }
+// console.log("Sorted array:", number);
+
+
+
