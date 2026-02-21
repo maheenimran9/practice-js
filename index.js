@@ -344,5 +344,38 @@
 // }
 // console.log("Sorted array:", number);
 
+// TASK 19: SEARCH AND REPLACE:
+// let words = ["apple", "mango", "pineapple", "banana", "grapes", "potato", "tomato", "peas", "spanish", "carrot"];
+// let currentWord = prompt("Enter current word");
+// let changeWord = prompt("Enter change word");
+// let found = false;
 
+// for (var i=0; i < words.length; i++){
+//     if( words[i] === currentWord){
+//         words[i] = changeWord
+//         found = true;
+//         break;
+//     }
+// }
+// if(found){
+//  console.log("Words Found", words)     
+// }else{
+//   console.log("Words not Found")    
+// }
+
+// TASK 20: UNIQUE VALUES:
+// let numbers = [1, 10, 76, 8, 3, 9, 54, 92, 5, 23, 44, 1, 2, 3, 19, 33, 76, 4, 5, 26, 44, 93, 100, 6, 5,  32, 87]
+// let uniquesNumber = [];
+// for(var i=0; i < numbers.length; i++){
+//   let count = 0
+//   for( var j=0; j < numbers.length; j++){
+//     if( numbers[i] === numbers[j]){
+//        count++;
+//     }
+//   }
+//   if(count === 1){
+//       uniquesNumber.push(numbers[i]);
+//   }
+// }
+// console.log(uniquesNumber);
 
